@@ -15,7 +15,7 @@ const Navigation = React.forwardRef((props, ref) => {
   const navBottom = navbarDimensions ? navbarDimensions.bottom : 0;
   useScrollPosition(
     ({ prevPos, currPos }) => {
-      if (!navbarDimensions) return;
+      if (!navbarDimensions || !ref.current) return; // Add a check for ref.current
       currPos.y + ref.current.offsetTop - navbarDimensions.bottom > 5
         ? setIsTop(true)
         : setIsTop(false);
@@ -25,7 +25,7 @@ const Navigation = React.forwardRef((props, ref) => {
   );
 
   React.useEffect(() => {
-    if (!navbarDimensions) return;
+    if (!navbarDimensions || !ref.current) return; // Add a check for ref.current
     navBottom - scrollPosition >= ref.current.offsetTop
       ? setIsTop(false)
       : setIsTop(true);
