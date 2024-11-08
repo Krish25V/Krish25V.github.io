@@ -6,31 +6,24 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Krish",
   middleName: "",
-  lastName: "Shoaib",
+  lastName: "Viramgama",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://github.com/Krish25V",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/krishviramgama/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/krishviramgama/",
     },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
-    },
+   
   ],
 };
 
@@ -51,11 +44,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
+  imageLink: require("../editable-stuff/krish.jpeg"),
+  imageSize: 300,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Krish Viramgama. I’m a graduate of 2024 from Pandit Deendayal Energy University located at Gandhinagar with a degree in Information and Communication Technology. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+  resume: "https://drive.google.com/file/d/11Z7bq2rL6Ag3H4cxoZ5FVN9zufnsAMSv/view?usp=drive_link",
 };
 
 // PROJECTS SECTION
@@ -66,7 +59,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "Krish25V", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -100,7 +93,7 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Python", value: 95 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
     { name: "C/C++", value: 65 },
